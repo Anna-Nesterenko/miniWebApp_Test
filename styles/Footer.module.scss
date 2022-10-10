@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  & > ul {
+    width: 250px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(-10%);
+    color: #c7d2fe;
+  }
+
+  & > h3 {
+    text-align: center;
+    color: #c7d2fe;
+  }
+}
